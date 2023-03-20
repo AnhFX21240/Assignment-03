@@ -1,0 +1,22 @@
+@media (min-width: 720px) and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bav a:link,
+  a:visited {
+    padding: 20px;
+    margin-right: 1px;
+    padding-bottom: 30px;
+  }
+  #personal-info {
+    font-size: 20px;
+    padding: 70px;
+  }
+  #job-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nd {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

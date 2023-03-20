@@ -1,0 +1,17 @@
+@media (max-width: 720px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar {
+    display: block;
+  }
+  #nav-bav a:link,
+  a:visited {
+    display: block;
+  }
+  .nd-1 {
+    border-left: 0;
+    border-top: 2px solid #d6c08d;
+    padding-top: 20px;
+  }
+}
